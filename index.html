@@ -1,38 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Desafio 2</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome Site</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    
+    <!-- Cabeçalho -->
     <header>
-      <nav>
-        <h1 class="titulo">Nome do Site</h1>
-        <ul class="menu-links">
-          <li>
-            <a href="">Home</a>
-          </li>
-          <li>
-            <a href="">Sobre</a>
-          </li>
-          <li>
-            <a href="">Serviços</a>
-          </li>
-          <li>
-            <a href="">Contato</a>
-          </li>
-        </ul>
-      </nav>
+        <nav>
+            <div class="logo">Meu Projeto</div>
+            <ul>
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+            </ul>
+        </nav>
     </header>
-    <section id="hero" class="hero">
-        <h1>Template</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident 
-            aperiam nemo dolor? Omnis eius provident, at cum unde consequuntur quis harum, 
-            molestiae reprehenderit distinctio praesentium fuga temporibus sit maiores necessitatibus.</p>
-        <a href="#servicos">Nossos serviços</a>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-conteudo">
+            <h1>Tituto do Projeto</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi atque officiis suscipit explicabo perspiciatis nesciunt consequatur, at molestiae delectus esse culpa porro debitis corporis laudantium, possimus sit qui illum dolorum.</p>
+            <a href="#servicos" class="btn">Ver mais</a>
+        </div>
+    </section>
+    
+    <!-- servicos section -->
+
+    <section id="servicos" class="services">
+      <h2 class="section-title">Nossos serviços</h2>
+      <div class="cards-container">
+        <div class="card">
+            <h3>Titulo do card</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="card">
+            <h3>Titulo do card</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="card">
+            <h3>Titulo do card</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
     </section>
 
-  </body>
+
+</body>
+
 </html>
